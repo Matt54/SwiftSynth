@@ -11,6 +11,7 @@
 		4F6096AB252ABC4800F674ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6096AA252ABC4800F674ED /* ContentView.swift */; };
 		4F6096AD252ABC4900F674ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6096AC252ABC4900F674ED /* Assets.xcassets */; };
 		4F6096B0252ABC4900F674ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6096AF252ABC4900F674ED /* Preview Assets.xcassets */; };
+		4F6096B9252ABC9D00F674ED /* Synth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6096B8252ABC9D00F674ED /* Synth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4F6096AC252ABC4900F674ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6096AF252ABC4900F674ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F6096B1252ABC4900F674ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6096B8252ABC9D00F674ED /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4F6096AC252ABC4900F674ED /* Assets.xcassets */,
 				4F6096B1252ABC4900F674ED /* Info.plist */,
 				4F6096AE252ABC4900F674ED /* Preview Content */,
+				4F6096B8252ABC9D00F674ED /* Synth.swift */,
 			);
 			path = SwiftSynth;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6096B9252ABC9D00F674ED /* Synth.swift in Sources */,
 				4F6096AB252ABC4800F674ED /* ContentView.swift in Sources */,
 				4F6096A9252ABC4800F674ED /* SwiftSynthApp.swift in Sources */,
 			);

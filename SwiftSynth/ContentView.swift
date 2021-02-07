@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var synth: Synth
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Slider(value: $synth.volume)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(Synth.shared)
     }
 }
